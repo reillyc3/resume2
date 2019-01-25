@@ -1,0 +1,2191 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c6d0d760a8a460d82b28f9d4e32256f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b82b0646cab5dd8afe17928d3ad2407",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f6a20604353f8bcf7f66e988d97d8e61",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aacb9d96b02593cabfaf1f1d9b97974f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "24c72026c8876c1f46e938fdf702d55f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "417be74ed14b245d3ad105042a43f3ae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bf7d19d863717abfd0be212ee074f06b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7d5d00da-d15f-59d0-9ad6-4a7b70dc4cc1": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-source-filesystem",
+      "id": "7d5d00da-d15f-59d0-9ad6-4a7b70dc4cc1",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/executive/website-dev/resume2/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "482c8b94da1627d29edc71eac07e841e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ca2c6d45-3cbb-5520-81b0-744c9701d15c": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-catch-links",
+      "id": "ca2c6d45-3cbb-5520-81b0-744c9701d15c",
+      "name": "gatsby-plugin-catch-links",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "escape-string-regexp",
+            "version": "^1.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bb1d919e59048371a0ebee3d6df9701b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c1f92204-0285-53d2-ae52-2766394b032e": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-source-filesystem",
+      "id": "c1f92204-0285-53d2-ae52-2766394b032e",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/executive/website-dev/resume2/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0067e3eb537b43b5e780cecaba5034b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "24b49e8b27ff2f98f91ccb0944d924e4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "433f753fc4656a1a15583903255df72b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/executive/website-dev/resume2",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "7d06df85908b7902eeda9cd1111c51dc",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2",
+      "packageJson": {
+        "name": "test",
+        "description": "Connor Reilly's Personal Site",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Connor Reilly",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bootstrap",
+            "version": "^4.2.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.53"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-bootstrap",
+            "version": "^0.32.4"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b38559e0c7563d4cbba08af92489fa34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9a0843d8-de97-5158-bd99-78fbeb08d720": {
+      "resolve": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-page-creator",
+      "id": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/executive/website-dev/resume2/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/executive/website-dev/resume2/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d3544e3c32eeae09496de9a4d1f96b71",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Connor Reilly",
+        "description": "Connor's personal website to showcase projects.",
+        "author": "Connor Reilly"
+      },
+      "pathPrefix": "/resume2",
+      "polyfill": true,
+      "buildTime": "2019-01-25T03:21:26.652Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3447d7b7c56ca3950b3d1eb982ed3cb9",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f20e1376-b730-526c-8091-236ad3777ff7": {
+      "id": "f20e1376-b730-526c-8091-236ad3777ff7",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8ebc9e76a870ebcaa331028f8c89b8ee",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2019-01-19T18:57:24.245Z",
+      "accessTime": "2019-01-25T03:21:34.827Z",
+      "changeTime": "2019-01-19T18:57:24.245Z",
+      "birthTime": "2018-12-17T19:02:14.293Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605538109,
+      "blocks": 0,
+      "atimeMs": 1548386494826.9897,
+      "mtimeMs": 1547924244245.328,
+      "ctimeMs": 1547924244245.328,
+      "birthtimeMs": 1545073334293.3652,
+      "atime": "2019-01-25T03:21:34.827Z",
+      "mtime": "2019-01-19T18:57:24.245Z",
+      "ctime": "2019-01-19T18:57:24.245Z",
+      "birthtime": "2018-12-17T19:02:14.293Z"
+    },
+    "234f28bb-5442-5570-9220-deca8df8e010": {
+      "id": "234f28bb-5442-5570-9220-deca8df8e010",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "93834fc24be9c59cac7f1a453f20b252",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-01-19T18:57:24.245Z",
+      "accessTime": "2019-01-24T03:32:16.715Z",
+      "changeTime": "2019-01-19T18:57:24.247Z",
+      "birthTime": "2019-01-19T18:53:09.167Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606648381,
+      "blocks": 8,
+      "atimeMs": 1548300736715.4998,
+      "mtimeMs": 1547924244245,
+      "ctimeMs": 1547924244246.9194,
+      "birthtimeMs": 1547923989166.8896,
+      "atime": "2019-01-24T03:32:16.715Z",
+      "mtime": "2019-01-19T18:57:24.245Z",
+      "ctime": "2019-01-19T18:57:24.247Z",
+      "birthtime": "2019-01-19T18:53:09.167Z"
+    },
+    "b40ab71c-9586-5c4b-ad8d-31fda5741f7f": {
+      "id": "b40ab71c-9586-5c4b-ad8d-31fda5741f7f",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-12-17T19:02:14.295Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2018-12-17T19:02:14.295Z",
+      "birthTime": "2018-12-17T19:02:14.295Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605538111,
+      "blocks": 48,
+      "atimeMs": 1548300736716.0142,
+      "mtimeMs": 1545073334294.8577,
+      "ctimeMs": 1545073334294.8577,
+      "birthtimeMs": 1545073334294.644,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2018-12-17T19:02:14.295Z",
+      "ctime": "2018-12-17T19:02:14.295Z",
+      "birthtime": "2018-12-17T19:02:14.295Z"
+    },
+    "22f78863-7376-5120-a19a-3f372971fa7c": {
+      "id": "22f78863-7376-5120-a19a-3f372971fa7c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4147c534e516041678e0a308054314f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/headshot.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/headshot.jpg",
+      "relativePath": "headshot.jpg",
+      "extension": "jpg",
+      "size": 67971,
+      "prettySize": "68 kB",
+      "modifiedTime": "2018-12-28T04:50:11.208Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2018-12-28T04:50:11.208Z",
+      "birthTime": "2018-12-28T04:49:57.839Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "headshot.jpg",
+      "ext": ".jpg",
+      "name": "headshot",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605912542,
+      "blocks": 136,
+      "atimeMs": 1548300736716.0527,
+      "mtimeMs": 1545972611208,
+      "ctimeMs": 1545972611208.2542,
+      "birthtimeMs": 1545972597839.351,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2018-12-28T04:50:11.208Z",
+      "ctime": "2018-12-28T04:50:11.208Z",
+      "birthtime": "2018-12-28T04:49:57.839Z"
+    },
+    "420f650d-6c00-5d3c-8ffa-e33bd77a2262": {
+      "id": "420f650d-6c00-5d3c-8ffa-e33bd77a2262",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cf5a6ee83344756046fbe61ec29abc01",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/dog-breed.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/dog-breed.jpg",
+      "relativePath": "dog-breed.jpg",
+      "extension": "jpg",
+      "size": 389325,
+      "prettySize": "389 kB",
+      "modifiedTime": "2018-12-28T02:56:02.203Z",
+      "accessTime": "2019-01-24T03:32:16.715Z",
+      "changeTime": "2018-12-28T02:56:02.205Z",
+      "birthTime": "2018-12-28T02:52:19.268Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "dog-breed.jpg",
+      "ext": ".jpg",
+      "name": "dog-breed",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605907010,
+      "blocks": 768,
+      "atimeMs": 1548300736715.4463,
+      "mtimeMs": 1545965762203,
+      "ctimeMs": 1545965762204.84,
+      "birthtimeMs": 1545965539267.5347,
+      "atime": "2019-01-24T03:32:16.715Z",
+      "mtime": "2018-12-28T02:56:02.203Z",
+      "ctime": "2018-12-28T02:56:02.205Z",
+      "birthtime": "2018-12-28T02:52:19.268Z"
+    },
+    "3ac08d3b-a2f5-578b-b0e3-2cf39e5d3104": {
+      "id": "3ac08d3b-a2f5-578b-b0e3-2cf39e5d3104",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bdf0a8f31faaf38903d4360cad5c4fbc",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/resume.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/resume.png",
+      "relativePath": "resume.png",
+      "extension": "png",
+      "size": 377853,
+      "prettySize": "378 kB",
+      "modifiedTime": "2018-12-30T21:10:19.951Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-05T03:50:12.817Z",
+      "birthTime": "2018-12-30T21:10:19.890Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "resume.png",
+      "ext": ".png",
+      "name": "resume",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605975147,
+      "blocks": 744,
+      "atimeMs": 1548300736716.0876,
+      "mtimeMs": 1546204219950.9326,
+      "ctimeMs": 1546660212816.754,
+      "birthtimeMs": 1546204219890.0308,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2018-12-30T21:10:19.951Z",
+      "ctime": "2019-01-05T03:50:12.817Z",
+      "birthtime": "2018-12-30T21:10:19.890Z"
+    },
+    "5919aeb6-5103-5fa7-b7ff-c21f6761008c": {
+      "id": "5919aeb6-5103-5fa7-b7ff-c21f6761008c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c24208eabacf2f32d7169d67b0c93096",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/resumev2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/images/resumev2.png",
+      "relativePath": "resumev2.png",
+      "extension": "png",
+      "size": 431319,
+      "prettySize": "431 kB",
+      "modifiedTime": "2019-01-05T04:51:16.183Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-05T04:51:48.890Z",
+      "birthTime": "2019-01-05T04:51:16.135Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/images",
+      "base": "resumev2.png",
+      "ext": ".png",
+      "name": "resumev2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606138709,
+      "blocks": 848,
+      "atimeMs": 1548300736716.139,
+      "mtimeMs": 1546663876182.6943,
+      "ctimeMs": 1546663908889.5488,
+      "birthtimeMs": 1546663876134.6711,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-05T04:51:16.183Z",
+      "ctime": "2019-01-05T04:51:48.890Z",
+      "birthtime": "2019-01-05T04:51:16.135Z"
+    },
+    "53e95f02-16bd-5cc1-8c42-08a2ba81213a": {
+      "id": "53e95f02-16bd-5cc1-8c42-08a2ba81213a",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6fe17b4686e10d8dec1c16b052c343d8",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2019-01-23T04:49:27.565Z",
+      "accessTime": "2019-01-25T03:21:34.853Z",
+      "changeTime": "2019-01-23T04:49:27.565Z",
+      "birthTime": "2018-12-17T19:02:14.295Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 9,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605538112,
+      "blocks": 0,
+      "atimeMs": 1548386494852.7263,
+      "mtimeMs": 1548218967564.9873,
+      "ctimeMs": 1548218967564.9873,
+      "birthtimeMs": 1545073334294.955,
+      "atime": "2019-01-25T03:21:34.853Z",
+      "mtime": "2019-01-23T04:49:27.565Z",
+      "ctime": "2019-01-23T04:49:27.565Z",
+      "birthtime": "2018-12-17T19:02:14.295Z"
+    },
+    "8d04a126-0ad0-56e6-8328-aa738118e628": {
+      "id": "8d04a126-0ad0-56e6-8328-aa738118e628",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c84ec3148d1bbdb2415a8aa4916a5a2f",
+        "type": "Directory",
+        "description": "Directory \"src/pages/groupon\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/groupon",
+      "relativePath": "groupon",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-12-23T01:15:43.684Z",
+      "accessTime": "2019-01-25T03:21:34.855Z",
+      "changeTime": "2018-12-23T01:15:43.684Z",
+      "birthTime": "2018-12-23T01:15:35.452Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "groupon",
+      "ext": "",
+      "name": "groupon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605730950,
+      "blocks": 0,
+      "atimeMs": 1548386494855.12,
+      "mtimeMs": 1545527743684.0042,
+      "ctimeMs": 1545527743684.0042,
+      "birthtimeMs": 1545527735451.7273,
+      "atime": "2019-01-25T03:21:34.855Z",
+      "mtime": "2018-12-23T01:15:43.684Z",
+      "ctime": "2018-12-23T01:15:43.684Z",
+      "birthtime": "2018-12-23T01:15:35.452Z"
+    },
+    "9fe15775-fa22-5f7b-a83d-a6685c961ac6": {
+      "id": "9fe15775-fa22-5f7b-a83d-a6685c961ac6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1d5c3a0b79e32de0ba369b5868bdc4d1",
+        "type": "Directory",
+        "description": "Directory \"src/pages/uptake\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/uptake",
+      "relativePath": "uptake",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-12-22T21:39:53.766Z",
+      "accessTime": "2019-01-25T03:21:34.855Z",
+      "changeTime": "2018-12-22T21:40:03.421Z",
+      "birthTime": "2018-12-22T04:07:08.263Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "uptake",
+      "ext": "",
+      "name": "uptake",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605688226,
+      "blocks": 0,
+      "atimeMs": 1548386494855.168,
+      "mtimeMs": 1545514793766.1467,
+      "ctimeMs": 1545514803420.8767,
+      "birthtimeMs": 1545451628263.0112,
+      "atime": "2019-01-25T03:21:34.855Z",
+      "mtime": "2018-12-22T21:39:53.766Z",
+      "ctime": "2018-12-22T21:40:03.421Z",
+      "birthtime": "2018-12-22T04:07:08.263Z"
+    },
+    "9b607a2e-507f-5120-88d8-680307822183": {
+      "id": "9b607a2e-507f-5120-88d8-680307822183",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dd70ab2f27f14ef3afbbb2450e1f0254",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2018-12-17T19:02:14.295Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2018-12-17T19:02:14.295Z",
+      "birthTime": "2018-12-17T19:02:14.295Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605538113,
+      "blocks": 8,
+      "atimeMs": 1548300736716.2065,
+      "mtimeMs": 1545073334295.0679,
+      "ctimeMs": 1545073334295.0679,
+      "birthtimeMs": 1545073334295.005,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2018-12-17T19:02:14.295Z",
+      "ctime": "2018-12-17T19:02:14.295Z",
+      "birthtime": "2018-12-17T19:02:14.295Z"
+    },
+    "6823cbce-9a55-555c-ab64-9f32a04d7b2a": {
+      "id": "6823cbce-9a55-555c-ab64-9f32a04d7b2a",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc22a1a1d55d03ecb5f295d367c66dd9",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1779,
+      "prettySize": "1.78 kB",
+      "modifiedTime": "2019-01-23T04:49:27.565Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-23T04:49:27.565Z",
+      "birthTime": "2019-01-23T04:49:27.564Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606884944,
+      "blocks": 8,
+      "atimeMs": 1548300736716.354,
+      "mtimeMs": 1548218967564.6191,
+      "ctimeMs": 1548218967564.6191,
+      "birthtimeMs": 1548218967564.396,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-23T04:49:27.565Z",
+      "ctime": "2019-01-23T04:49:27.565Z",
+      "birthtime": "2019-01-23T04:49:27.564Z"
+    },
+    "c9612f9e-661b-5e30-87ce-1b9b704ad145": {
+      "id": "c9612f9e-661b-5e30-87ce-1b9b704ad145",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f493062a9b91ecd28013ef2b84657d94",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/contact.js",
+      "relativePath": "contact.js",
+      "extension": "js",
+      "size": 208,
+      "prettySize": "208 B",
+      "modifiedTime": "2019-01-19T18:26:07.670Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-19T18:26:07.670Z",
+      "birthTime": "2018-12-21T02:37:55.077Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605650336,
+      "blocks": 8,
+      "atimeMs": 1548300736716.2537,
+      "mtimeMs": 1547922367669.647,
+      "ctimeMs": 1547922367669.647,
+      "birthtimeMs": 1545359875077.1777,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-19T18:26:07.670Z",
+      "ctime": "2019-01-19T18:26:07.670Z",
+      "birthtime": "2018-12-21T02:37:55.077Z"
+    },
+    "d204e285-9957-5a0b-b070-1959cba81d39": {
+      "id": "d204e285-9957-5a0b-b070-1959cba81d39",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4501709b533fc2a01c50d9d91757ec8",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/projects.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/projects.js",
+      "relativePath": "projects.js",
+      "extension": "js",
+      "size": 2207,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2019-01-23T04:49:27.565Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-23T04:49:27.565Z",
+      "birthTime": "2019-01-23T04:49:27.565Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "projects.js",
+      "ext": ".js",
+      "name": "projects",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606884945,
+      "blocks": 8,
+      "atimeMs": 1548300736716.418,
+      "mtimeMs": 1548218967565.3274,
+      "ctimeMs": 1548218967565.3274,
+      "birthtimeMs": 1548218967564.974,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-23T04:49:27.565Z",
+      "ctime": "2019-01-23T04:49:27.565Z",
+      "birthtime": "2019-01-23T04:49:27.565Z"
+    },
+    "c8bc2bc3-a479-51fc-a413-c829b06d4999": {
+      "id": "c8bc2bc3-a479-51fc-a413-c829b06d4999",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "720976803818f39d73acd95744eadba5",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/resume.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/resume.js",
+      "relativePath": "resume.js",
+      "extension": "js",
+      "size": 1792,
+      "prettySize": "1.79 kB",
+      "modifiedTime": "2019-01-22T00:28:10.879Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-22T00:28:10.879Z",
+      "birthTime": "2018-12-21T02:37:24.083Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages",
+      "base": "resume.js",
+      "ext": ".js",
+      "name": "resume",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605650241,
+      "blocks": 8,
+      "atimeMs": 1548300736716.4832,
+      "mtimeMs": 1548116890879.0842,
+      "ctimeMs": 1548116890879.0842,
+      "birthtimeMs": 1545359844083.1963,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-22T00:28:10.879Z",
+      "ctime": "2019-01-22T00:28:10.879Z",
+      "birthtime": "2018-12-21T02:37:24.083Z"
+    },
+    "4d2a1eba-21d0-5e5b-a6e3-e1d48c6068c3": {
+      "id": "4d2a1eba-21d0-5e5b-a6e3-e1d48c6068c3",
+      "children": [
+        "a8834dce-4e44-5e24-9951-b8f5d2e941e2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aa0b47b8a62dc1e9ab836dbf9ee47f7d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/groupon/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/groupon/index.md",
+      "relativePath": "groupon/index.md",
+      "extension": "md",
+      "size": 774,
+      "prettySize": "774 B",
+      "modifiedTime": "2019-01-19T03:43:08.648Z",
+      "accessTime": "2019-01-24T03:32:16.716Z",
+      "changeTime": "2019-01-19T03:43:08.648Z",
+      "birthTime": "2018-12-23T01:15:43.684Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages/groupon",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "groupon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605730954,
+      "blocks": 8,
+      "atimeMs": 1548300736716.3079,
+      "mtimeMs": 1547869388647.5928,
+      "ctimeMs": 1547869388647.5928,
+      "birthtimeMs": 1545527743683.9893,
+      "atime": "2019-01-24T03:32:16.716Z",
+      "mtime": "2019-01-19T03:43:08.648Z",
+      "ctime": "2019-01-19T03:43:08.648Z",
+      "birthtime": "2018-12-23T01:15:43.684Z"
+    },
+    "0a7b0cf3-6880-5dff-8ff3-2625cbb0d586": {
+      "id": "0a7b0cf3-6880-5dff-8ff3-2625cbb0d586",
+      "children": [
+        "0288bf20-46b9-5ce6-986e-c6ffa1525d32"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "47d821226b0b728bb09ac374004f5dfc",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/uptake/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/executive/website-dev/resume2/src/pages/uptake/index.md",
+      "relativePath": "uptake/index.md",
+      "extension": "md",
+      "size": 1235,
+      "prettySize": "1.24 kB",
+      "modifiedTime": "2019-01-19T03:59:46.410Z",
+      "accessTime": "2019-01-24T03:32:16.717Z",
+      "changeTime": "2019-01-19T03:59:46.410Z",
+      "birthTime": "2018-12-22T04:08:01.041Z",
+      "root": "/",
+      "dir": "/Users/executive/website-dev/resume2/src/pages/uptake",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "uptake",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605688349,
+      "blocks": 8,
+      "atimeMs": 1548300736716.558,
+      "mtimeMs": 1547870386409.6243,
+      "ctimeMs": 1547870386409.6243,
+      "birthtimeMs": 1545451681041.308,
+      "atime": "2019-01-24T03:32:16.717Z",
+      "mtime": "2019-01-19T03:59:46.410Z",
+      "ctime": "2019-01-19T03:59:46.410Z",
+      "birthtime": "2018-12-22T04:08:01.041Z"
+    },
+    "0288bf20-46b9-5ce6-986e-c6ffa1525d32": {
+      "id": "0288bf20-46b9-5ce6-986e-c6ffa1525d32",
+      "children": [],
+      "parent": "0a7b0cf3-6880-5dff-8ff3-2625cbb0d586",
+      "internal": {
+        "content": "\n1. Resolve complex technical problems for internal and external end users \n* Onsite point of contact for Salesforce.com (Service Cloud) for the Application Support team\n* Maintained Salesforce.com standard and custom objects, while also configuring page layouts, workflows, email templates, and data fields\n* Made UI edits to customize various Salesforce community portals\n* Managed a Sandbox environment and acted as a liaison for a Salesforce consulting firm\n* Perform application testing and identify and resolve/triage potential product defects and performance abnormalities\n* Engage in QA process, pre- and post- implementation planning sessions regarding our applications\n* Collaborate with Product, UX, and Development teams to facilitate processes throughout the release management cycle\n* Coordinate and ensure completion of ad hoc projects to increase efficiency within the Product Operations department\n* Create, track progress, and manage change and incident management tickets to resolution and articulate business impact for concurrent and subsequent analysis\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "8b2897d2a15d7469d23e619e3e11f069",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Application Specialist / Salesforce Admin",
+        "company": "Uptake",
+        "location": "Chicago, IL",
+        "date": "July 2017 - Present",
+        "url": "https://www.uptake.com",
+        "_PARENT": "0a7b0cf3-6880-5dff-8ff3-2625cbb0d586"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n1. Resolve complex technical problems for internal and external end users \n* Onsite point of contact for Salesforce.com (Service Cloud) for the Application Support team\n* Maintained Salesforce.com standard and custom objects, while also configuring page layouts, workflows, email templates, and data fields\n* Made UI edits to customize various Salesforce community portals\n* Managed a Sandbox environment and acted as a liaison for a Salesforce consulting firm\n* Perform application testing and identify and resolve/triage potential product defects and performance abnormalities\n* Engage in QA process, pre- and post- implementation planning sessions regarding our applications\n* Collaborate with Product, UX, and Development teams to facilitate processes throughout the release management cycle\n* Coordinate and ensure completion of ad hoc projects to increase efficiency within the Product Operations department\n* Create, track progress, and manage change and incident management tickets to resolution and articulate business impact for concurrent and subsequent analysis\n\n",
+      "fileAbsolutePath": "/Users/executive/website-dev/resume2/src/pages/uptake/index.md"
+    },
+    "a8834dce-4e44-5e24-9951-b8f5d2e941e2": {
+      "id": "a8834dce-4e44-5e24-9951-b8f5d2e941e2",
+      "children": [],
+      "parent": "4d2a1eba-21d0-5e5b-a6e3-e1d48c6068c3",
+      "internal": {
+        "content": "\n1. Managed merchant relationships throughout the sales process as first point of contact for local businesses in North America\n2. Developed online advertising campaigns for small- and medium- sized businesses to Groupon’s platform\n * Performed market needs assessment to ensure maximal campaign effectiveness\n * Successfully closed 45 contracts monthly, consistently surpassing monthly goals\n3. Collaborated with Regional Sales Manager to optimize Salesforce reports for Inbound reps  \n4. Assessed and relayed iOS mobile app product defects to development team, using Jira project management software\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "24f7417db5cd500e7ac80eda87ccf22e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Inbound Account Exective - Merchant Development",
+        "company": "Groupon",
+        "location": "Chicago, IL",
+        "date": "March 2016 - July 2017",
+        "url": "https://www.groupon.com",
+        "_PARENT": "4d2a1eba-21d0-5e5b-a6e3-e1d48c6068c3"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n1. Managed merchant relationships throughout the sales process as first point of contact for local businesses in North America\n2. Developed online advertising campaigns for small- and medium- sized businesses to Groupon’s platform\n * Performed market needs assessment to ensure maximal campaign effectiveness\n * Successfully closed 45 contracts monthly, consistently surpassing monthly goals\n3. Collaborated with Regional Sales Manager to optimize Salesforce reports for Inbound reps  \n4. Assessed and relayed iOS mobile app product defects to development team, using Jira project management software\n",
+      "fileAbsolutePath": "/Users/executive/website-dev/resume2/src/pages/groupon/index.md"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/executive/website-dev/resume2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "pluginCreatorId": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7584160ced19650dd092483ca078a39f",
+        "description": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/executive/website-dev/resume2/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "pluginCreatorId": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9a3fb1f8db822f6285b780e40d037bb1",
+        "description": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/executive/website-dev/resume2/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "pluginCreatorId": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e30f6625e87b3c85542920056230def5",
+        "description": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "jsonName": "projects-9e9",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "/Users/executive/website-dev/resume2/src/pages/projects.js",
+      "componentChunkName": "component---src-pages-projects-js",
+      "context": {},
+      "pluginCreator___NODE": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "pluginCreatorId": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/projects.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e05eff6a8a71301c3b0f0bc288f2d374",
+        "description": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /resume/": {
+      "jsonName": "resume-e4f",
+      "internalComponentName": "ComponentResume",
+      "path": "/resume/",
+      "component": "/Users/executive/website-dev/resume2/src/pages/resume.js",
+      "componentChunkName": "component---src-pages-resume-js",
+      "context": {},
+      "pluginCreator___NODE": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "pluginCreatorId": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/resume.js",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "489e70522432e22898e4ec815ab073ac",
+        "description": "9a0843d8-de97-5158-bd99-78fbeb08d720",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/executive/website-dev/resume2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "578ad577bc5cad21a764841b74567cbd",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "00ebd64ba41124cc58469ed25081d070"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/resume/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-seo-js": 1025518380,
+    "sq--src-components-layout-js": 755544856,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "resume-e4f": "146/path---resume-e-4-f-cdf-xWBWT3sDaiWOzh0U2cPZrmwLLdw",
+    "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/executive/website-dev/resume2/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/404.js"
+    },
+    "/Users/executive/website-dev/resume2/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/contact.js"
+    },
+    "/Users/executive/website-dev/resume2/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/index.js"
+    },
+    "/Users/executive/website-dev/resume2/src/pages/projects.js": {
+      "query": "",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/projects.js"
+    },
+    "/Users/executive/website-dev/resume2/src/pages/resume.js": {
+      "query": "query JobsIndexQuery {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}) {\n    edges {\n      node {\n        id\n        html\n        frontmatter {\n          title\n          company\n          location\n          date\n          url\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/executive/website-dev/resume2/src/pages/resume.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/executive/website-dev/resume2/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/executive/website-dev/resume2/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
